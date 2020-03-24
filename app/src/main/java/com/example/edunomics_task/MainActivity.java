@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                 h1=h1*(e*e);
                 t1=t1*e;
             }
-           Toast.makeText(MainActivity.this, "Total number of bounces are:  "+ datapoints, Toast.LENGTH_SHORT).show();
+           Toast.makeText(MainActivity.this, "Total number of bounces are:  "+ datapoints/2, Toast.LENGTH_SHORT).show();
             graph.addSeries(series);
             graph.getViewport().setYAxisBoundsManual(true);
             graph.getViewport().setXAxisBoundsManual(true);
